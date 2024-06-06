@@ -39,7 +39,7 @@ jobs:
                 host: ${{ secrets.PROD_HOST }}
                 port: ${{ secrets.PROD_PORT }}
                 username: ${{ secrets.PROD_LOGIN }}
-                password: ${{ secrets.PROD_PASS }}
+                password: ${{ secrets.PROD_PASSWORD }}
 
                 source: "./docker-compose.yml"
                 target: "."
@@ -58,7 +58,7 @@ jobs:
                 host: ${{ secrets.PROD_HOST }}
                 port: ${{ secrets.PROD_PORT }}
                 username: ${{ secrets.PROD_LOGIN }}
-                password: ${{ secrets.PROD_PASS }}
+                password: ${{ secrets.PROD_PASSWORD }}
 
                 script: |
                   docker pull senseo/ratatouf:latest
