@@ -16,7 +16,7 @@ sudo apt update
 
 sudo apt install nodejs
 
-echo "####################################"
+echo "#####################################"
 node -v
 npm -v
 
